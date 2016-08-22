@@ -41,22 +41,9 @@ public class B2dWorldCreator {
                         MainRPG.HEAD_BIT |
                         MainRPG.BULLET_BIT |
                         MainRPG.ENEMY_BIT;
-
+                        
                 body.createFixture(fdef);
 
-                /*EdgeShape edge = new EdgeShape();
-                edge.set((-rect.getWidth() / 2 + 5)/ MainRPG.PPM, rect.getHeight() / 2 / MainRPG.PPM,
-                        (rect.getWidth() / 2 - 5) / MainRPG.PPM, rect.getHeight() / 2 / MainRPG.PPM);
-
-                fdef.shape = edge;
-                fdef.restitution = 0;
-                fdef.filter.categoryBits = MainRPG.FLOOR_BIT;
-                fdef.filter.maskBits = MainRPG.CHARACTER_BIT |
-                        MainRPG.HEAD_BIT |
-                        MainRPG.BULLET_BIT |
-                        MainRPG.ENEMY_BIT;
-
-                body.createFixture(fdef);*/
             }
         }
     }
