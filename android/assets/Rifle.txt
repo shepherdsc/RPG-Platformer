@@ -1,0 +1,19 @@
+Rifle.png
+size: 1000, 600
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+RifeArmsGunCentered
+  rotate: false
+  xy: 0, 0
+  size: 700, 600
+  orig: 700, 600
+  offset: 0, 0
+  index: -1
+RifleNoArms
+  rotate: false
+  xy: 700, 0
+  size: 300, 600
+  orig: 300, 600
+  offset: 0, 0
+  index: -1
